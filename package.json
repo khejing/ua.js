@@ -1,0 +1,19 @@
+{
+  "name": "ua.js",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khejing/ua.js.git"
+  },
+  "author": "Will Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khejing/ua.js/issues"
+  },
+  "homepage": "https://github.com/khejing/ua.js#readme"
+}
