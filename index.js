@@ -30,4 +30,4 @@ function isDesktop(){
   return true;
 }
 
-export {isWeChat, isMobile, isDesktop};
+export {isWeChat, isMobile, isDesktop, isAndroid, isiPhone};
