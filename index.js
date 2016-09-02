@@ -30,4 +30,11 @@ function isDesktop(){
   return true;
 }
 
-export {isWeChat, isMobile, isDesktop, isAndroid, isiPhone};
+function isElectron(){
+  if(navigator.userAgent.indexOf("Electron") === -1){
+    return false;
+  }
+  return true;
+}
+
+export {isWeChat, isMobile, isDesktop, isAndroid, isiPhone, isElectron};
